@@ -1,0 +1,17 @@
+{
+  "name": "mysql-query-wrapper",
+  "version": "0.1.0",
+  "description": "Yet another mysql query wrapper. Uses promise or callback and includes a couple extra functions",
+  "main": "lib/wrapper.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "lteacher",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.11.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}
