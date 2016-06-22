@@ -1,8 +1,13 @@
 # Mysql Query Wrapper
+
+Another `mysql` package query wrapper
+
+[![NPM](https://nodei.co/npm/mysql-query-wrapper.png?downloads=true)](https://nodei.co/npm/mysql-query-wrapper/)
+
 [![Build Status](https://travis-ci.org/lteacher/mysql-query-wrapper.svg?branch=master)](https://travis-ci.org/lteacher/mysql-query-wrapper)
 [![Coverage Status](https://coveralls.io/repos/github/lteacher/mysql-query-wrapper/badge.svg?branch=master)](https://coveralls.io/github/lteacher/mysql-query-wrapper?branch=master)
 
-Another query wrapper for mysql... Probably like most of the other examples, in refactoring code to make it nicer to use the `mysql` package these functions emerged so why not randomly publish them. If you want to use then obviously go for it. Any issues or features create them at github.
+Probably like most of the other examples, in refactoring code to make it nicer to use the `mysql` package these functions emerged so why not randomly publish them. If you want to use then obviously go for it. Any issues or features create them at github.
 
 ## Features
 Converts the mysql query to one that returns a promise unless a callback is provided.
