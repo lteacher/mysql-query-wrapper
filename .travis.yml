@@ -13,3 +13,6 @@ before_install:
   - docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
   - chmod +x ./tool/travis.sh
   - npm install -g ava
+
+after_success:
+  - npm run coverage
