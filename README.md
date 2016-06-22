@@ -1,5 +1,6 @@
 # Mysql Query Wrapper
 [![Build Status](https://travis-ci.org/lteacher/mysql-query-wrapper.svg?branch=master)](https://travis-ci.org/lteacher/mysql-query-wrapper)
+[![Coverage Status](https://coveralls.io/repos/github/lteacher/mysql-query-wrapper/badge.svg?branch=master)](https://coveralls.io/github/lteacher/mysql-query-wrapper?branch=master)
 
 Another query wrapper for mysql... Probably like most of the other examples, in refactoring code to make it nicer to use the `mysql` package these functions emerged so why not randomly publish them. If you want to use then obviously go for it. Any issues or features create them at github.
 
