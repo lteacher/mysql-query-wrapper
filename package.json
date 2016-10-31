@@ -1,6 +1,6 @@
 {
   "name": "mysql-query-wrapper",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-beta",
   "description": "Yet another mysql query wrapper. Uses promise or callback and includes a couple extra functions",
   "homepage": "https://github.com/lteacher/mysql-query-wrapper",
   "main": "lib/wrapper.js",
