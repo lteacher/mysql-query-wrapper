@@ -15,12 +15,12 @@
   "author": "lteacher",
   "license": "MIT",
   "dependencies": {
-    "mysql": "^2.11.1"
+    "mysql": "^2.16.0"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
-    "coveralls": "^2.11.9",
-    "nyc": "^6.6.1"
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.2",
+    "nyc": "^13.0.1"
   },
   "keywords": [
     "mysql",
