@@ -1,8 +1,8 @@
 language: node_js
 node_js:
+  - '10'
+  - '8'
   - '6'
-  - '5'
-  - '4'
 sudo: false
 script: ./tool/travis.sh
 
@@ -10,6 +10,7 @@ services:
   - docker
 
 before_install:
+  - sudo service mysql stop
   - docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
   - chmod +x ./tool/travis.sh
   - npm install -g ava
